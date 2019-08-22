@@ -2,45 +2,74 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>items</key>
+	<key>HCM.ipa</key>
 	<array>
 		<dict>
-			<key>assets</key>
+			<key>architectures</key>
 			<array>
-				<dict>
-					<key>kind</key>
-					<string>software-package</string>
-					<key>url</key>
-					<string>http://c.haocaimao.net/download/hcm.ipa</string>
-				</dict>
-				<dict>
-					<key>kind</key>
-					<string>full-size-image</string>
-					<key>needs-shine</key>
-					<true/>
-					<key>url</key>
-					<string>http://c.haocaimao.net/download/buy.png</string>
-				</dict>
-				<dict>
-					<key>kind</key>
-					<string>display-image</string>
-					<key>needs-shine</key>
-					<true/>
-					<key>url</key>
-					<string>http://c.haocaimao.net/download/buy.png</string>
-				</dict>
+				<string>armv7</string>
+				<string>arm64</string>
 			</array>
-			<key>metadata</key>
+			<key>certificate</key>
 			<dict>
-				<key>bundle-identifier</key>
-				<string>com.wallert.HCM</string>
-				<key>bundle-version</key>
-				<string>1.0.0</string>
-				<key>kind</key>
-				<string>software</string>
-				<key>title</key>
-				<string>XXXX App download</string>
+				<key>SHA1</key>
+				<string>5D8E9CE4C3CC4E597EDE6D77F1502653DDE22938</string>
+				<key>dateExpires</key>
+				<string>2020/8/20</string>
+				<key>type</key>
+				<string>iOS Development</string>
 			</dict>
+			<key>entitlements</key>
+			<dict>
+				<key>application-identifier</key>
+				<string>R28Z5ZS4F9.com.wallert.HCM</string>
+				<key>com.apple.developer.team-identifier</key>
+				<string>R28Z5ZS4F9</string>
+				<key>get-task-allow</key>
+				<true/>
+				<key>keychain-access-groups</key>
+				<array>
+					<string>R28Z5ZS4F9.com.wallert.HCM</string>
+				</array>
+			</dict>
+			<key>name</key>
+			<string>HCM.app</string>
+			<key>profile</key>
+			<dict>
+				<key>UUID</key>
+				<string>7bcf4d35-9549-4eda-972b-12e79fbf06c6</string>
+				<key>name</key>
+				<string>iOS Team Provisioning Profile: *</string>
+			</dict>
+			<key>team</key>
+			<dict>
+				<key>id</key>
+				<string>R28Z5ZS4F9</string>
+				<key>name</key>
+				<string>AINA JIANG</string>
+			</dict>
+			<dict>
+				<key>kind</key>
+				<string>software-package</string>
+				<key>url</key>
+				<string>http://c.haocaimao.net/download/hcm.ipa</string>
+			</dict>
+			<dict>
+				<key>kind</key>
+				<string>full-size-image</string>
+				<key>needs-shine</key>
+				<true/>
+				<key>url</key>
+				<string>http://c.haocaimao.net/download/buy.png</string>
+			</dict>
+			<dict>
+				<key>kind</key>
+				<string>display-image</string>
+				<key>needs-shine</key>
+				<true/>
+				<key>url</key>
+				<string>http://c.haocaimao.net/download/buy.png</string>
+			</dict>			
 		</dict>
 	</array>
 </dict>
